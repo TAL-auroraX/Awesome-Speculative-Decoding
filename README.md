@@ -2,6 +2,7 @@
 
 ## 🌟 Why Speculative Decoding
 Transformer-based LLMs generate one token at a time, which significantly limits their inference speed. To accelerate the inference speed of LLMs, Speculative Decoding was introduced. Speculative Decoding employs a draft model to generate multiple tokens simultaneously and utilizes an LLM verification strategy to expedite the inference process.
+<div align=center><img src="./imgs/sd_demo.png" width="100%" height="80%" /></div>
 
 ## 🔍 Resources
 A collection of papers of Speculative Decoding
