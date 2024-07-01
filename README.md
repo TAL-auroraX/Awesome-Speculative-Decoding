@@ -1,6 +1,9 @@
 # Awesome-Speculative-Decoding
 
-## Resources
+## 🌟 Why Speculative Decoding
+Transformer-based LLMs generate one token at a time, which significantly limits their inference speed. To accelerate the inference speed of LLMs, Speculative Decoding was introduced. Speculative Decoding employs a draft model to generate multiple tokens simultaneously and utilizes an LLM verification strategy to expedite the inference process.
+
+## 🔍 Resources
 A collection of papers of Speculative Decoding
 
 ### Surveys
@@ -14,6 +17,15 @@ Chen Zhang, Zhuorui Liu, Dawei Song. [[paper](https://arxiv.org/abs/2404.14897)]
 ### Lossless
 To better understand lossless acceleration, please first learn about *Reject Sampling*.
 
+> Reject Samping
+
+**Accelerating Large Language Model Decoding with Speculative Sampling**<br />
+Charlie Chen, Sebastian Borgeaud, Geoffrey Irving, Jean-Baptiste Lespiau, Laurent Sifre, John Jumper. [[paper](https://arxiv.org/abs/2302.01318)]
+
+**Fast Inference from Transformers via Speculative Decoding** (ICML 2023)<br />
+Yaniv Leviathan, Matan Kalman, Yossi Matias. 
+[[paper](https://proceedings.mlr.press/v202/leviathan23a.html)]
+
 > Blockwise Decoding
 
 **Blockwise Parallel Decoding for Deep Autoregressive Models** (NIPS 2018)<br />
@@ -23,15 +35,6 @@ Mitchell Stern, Noam Shazeer, Jakob Uszkoreit. [[paper](https://arxiv.org/abs/18
 
 **Speculative Decoding: Exploiting Speculative Execution for Accelerating Seq2seq Generation**<br />
 Heming Xia, Tao Ge, Peiyi Wang, Si-Qing Chen, Furu Wei, Zhifang Sui [[paper](https://arxiv.org/abs/2203.16487)]
-
-> Reject Samping
-
-**Accelerating Large Language Model Decoding with Speculative Sampling**<br />
-Charlie Chen, Sebastian Borgeaud, Geoffrey Irving, Jean-Baptiste Lespiau, Laurent Sifre, John Jumper. [[paper](https://arxiv.org/abs/2302.01318)]
-
-**Fast Inference from Transformers via Speculative Decoding** (ICML 2023)<br />
-Yaniv Leviathan, Matan Kalman, Yossi Matias. 
-[[paper](https://proceedings.mlr.press/v202/leviathan23a.html)]
 
 > EAGLE
 
