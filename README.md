@@ -1,11 +1,13 @@
 # Awesome-Speculative-Decoding
 
+<div align=center><img src="./imgs/sd_demo.png" width="100%" height="80%" /></div>
+
 ## 🔍 What is Speculative Decoding
 Speculative Decoding is a Draft-thenVerify decoding paradigm in which, at each decoding step, it first efficiently drafts multiple future tokens and then verifies all these tokens in parallel using the target LLM to speed up inference.
 
 ## 🌟 Why Speculative Decoding
 Transformer-based LLMs generate one token at a time, which significantly limits their inference speed. To accelerate the inference speed of LLMs, Speculative Decoding was introduced. Speculative Decoding employs a draft model to generate multiple tokens simultaneously and utilizes an LLM verification strategy to expedite the inference process.
-<div align=center><img src="./imgs/sd_demo.png" width="100%" height="80%" /></div>
+
 
 ## 🔍 Resources
 A collection of papers of Speculative Decoding
@@ -48,7 +50,7 @@ Yuhui Li, Fangyun Wei, Chao Zhang, Hongyang Zhang. [[paper](https://arxiv.org/ab
 > EAGLE-2
 
 **EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees**<br />
-Yuhui Li, Fangyun Wei, Chao Zhang, Hongyang Zhang. [[papaer](https://arxiv.org/abs/2406.16858)][[code](https://github.com/SafeAILab/EAGLE)]
+Yuhui Li, Fangyun Wei, Chao Zhang, Hongyang Zhang. [[paper](https://arxiv.org/abs/2406.16858)][[code](https://github.com/SafeAILab/EAGLE)]
 
 > Lookahead
 
